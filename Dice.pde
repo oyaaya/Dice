@@ -19,7 +19,7 @@ void draw()
       sum = sum+row.dots;
     }
   }
-  text("Your Number is:"+sum,250, 25);  
+  text("Your Number is:"+sum,200, 25);  
 }
 void mousePressed()
 {

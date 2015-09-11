@@ -10,9 +10,9 @@ void draw()
   fill(255);
   textSize(30);
   int sum = 0;
-  for( int a = 0; a< 500; a+=50)
+  for( int a = 0; a< 300; a+=50)
   {
-    for(int b = 45; b <500; b+=50 )
+    for(int b = 45; b <300; b+=50 )
     {
       Die row = new Die(a,b);
       row.show();

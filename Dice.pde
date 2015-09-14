@@ -34,7 +34,7 @@ class Die //models one single dice cube
     //variable initializations here
     DX = x;
     DY = y;
-    dots = (int)(Math.random()*7+1);
+    dots = (int)(Math.random()*6+1);
   }
   void roll()
   {
@@ -56,7 +56,7 @@ class Die //models one single dice cube
       ellipse(DX+40,DY+40,10,10);
     }
     if (dots == 3) {
-      fill(255);
+      fill(0);
       ellipse(DX+10,DY+10,10,10);
       ellipse(DX+25,DY+25,10,10);
       ellipse(DX+40,DY+40,10,10);
